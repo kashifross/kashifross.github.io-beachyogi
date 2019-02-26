@@ -1,0 +1,1 @@
+This is a fictional yoga website. I practice using animations and other CSS techniques to create a stylish, modern website. 
