@@ -1,0 +1,22 @@
+{
+  "name": "kashifross.github.io-beachyogi",
+  "version": "1.0.0",
+  "description": "This is a fictional yoga website. I practice using animations and other CSS techniques to create a stylish, modern website.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kashifross/kashifross.github.io-beachyogi.git"
+  },
+  "author": "Kashif Ross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kashifross/kashifross.github.io-beachyogi/issues"
+  },
+  "homepage": "https://github.com/kashifross/kashifross.github.io-beachyogi#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
