@@ -3,7 +3,10 @@
 }
 
 .header {
-  background-image: linear-gradient(to top, rgba($color-primary-dark, 0.85), rgba($color-primary-light, 0.85)), url('/img/hero.jpg');
+  background-image: linear-gradient(to top, 
+    rgba($color-primary-dark, 0.85), 
+    rgba($color-primary-light, 0.85)), 
+    url('/img/hero.jpg');
   background-size: cover;
   background-position: top;
   height: 95vh;
