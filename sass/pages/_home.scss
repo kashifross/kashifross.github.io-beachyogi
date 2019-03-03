@@ -27,5 +27,29 @@
 
 .section-stories {
   padding: 5rem 0;
-  background-color: $color-gray-light-1;
+}
+
+.section-free {
+  padding: 15rem 0;
+  background-image: linear-gradient(to bottom, rgba($color-primary-light, .7), rgba($color-primary-dark, .7));
+}
+
+.free {
+  background-image: linear-gradient(
+    115deg,
+    rgba($color-white, .82) 0%,
+    rgba($color-white, .82) 50%,
+    transparent 50%), 
+    url(/img/yoga-10.jpg);
+  background-size: 100%;
+  background-position: bottom;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, .25);
+
+  height: 50rem;
+
+  &__form {
+    width: 50%;
+    padding: 6rem;
+  }
 }

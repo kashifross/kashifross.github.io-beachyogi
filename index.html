@@ -29,7 +29,7 @@
           <span class="heading-primary--sub">was made for yoga</span>
         </h1>
 
-        <a href="#" class="btn btn--white">Looking for classes?</a>
+        <a href="#" class="btn btn--white btn--animated">Looking for classes?</a>
       </div>
     </div>
   </section>
@@ -210,50 +210,133 @@
             </div>
           </div>
 
-            <!-- Button -->
-              <div class="u-center-text u-margin-top-xl"> 
-                <a href="#" class="btn btn--orange">See all classes</a>
-              </div>
+          <!-- Button -->
+          <div class="u-center-text u-margin-top-xl"> 
+            <a href="#" class="btn btn--orange">See all classes</a>
+          </div>
     </section>
 
-    <!-- Stories -->
-    <div class="section section-stories">
-        <div class="u-center-text u-margin-bottom-lg"> 
-          <h2 class="heading-secondary">
-            What people are saying about us
-          </h2>
-        </div>
+    <!-- Background Video -->
+    <section class="section section-stories">
+      <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+          <source src="img/video.mp4" type="video/mp4">
+          <source src="img/video.webm" type="video/webm">
+          Your browser is not supported!
+        </video>
+      </div>
 
-        <div class="row">
-          <div class="story">
-            <figure class="story__shape">
-              <img src="img/yoga-8.jpg" alt="Yogi celebrating success" class="story__img">
-              <figcaption class="story__caption">Jeanie</figcaption>
-            </figure>
-            <div class="story_text">
-              <h3 class="heading-tertiary u-margin-bottom-sm">This was a life-changing experience</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi veniam minus nesciunt ipsa blanditiis provident cupiditate magni voluptate assumenda similique incidunt voluptatum corrupti iste necessitatibus, dicta aliquid quibusdam labore. Non. Soluta recusandae eaque repellat quos possimus totam, vel doloribus.</p>
-            </div>
+      <!-- Stories -->
+      <div class="u-center-text u-margin-bottom-lg"> 
+        <h2 class="heading-secondary">
+          What people are saying about us
+        </h2>
+      </div>
+
+      <div class="row">
+        <div class="story">
+          <figure class="story__shape">
+            <img src="img/yoga-8.jpg" alt="Yogi celebrating success" class="story__img">
+            <figcaption class="story__caption">Jeanie</figcaption>
+          </figure>
+          <div class="story_text">
+            <h3 class="heading-tertiary u-margin-bottom-sm">This was a life-changing experience</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi veniam minus nesciunt ipsa blanditiis provident cupiditate magni voluptate assumenda similique incidunt voluptatum corrupti iste necessitatibus, dicta aliquid quibusdam labore. Non. Soluta recusandae eaque repellat quos possimus totam, vel doloribus.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="story">
+          <figure class="story__shape">
+            <img src="img/yoga-9.jpg" alt="Yogi celebrating success" class="story__img">
+            <figcaption class="story__caption">Logan</figcaption>
+          </figure>
+          <div class="story_text">
+            <h3 class="heading-tertiary u-margin-bottom-sm">Yoga and sand... My two favorite things</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi veniam minus nesciunt ipsa blanditiis provident cupiditate magni voluptate assumenda similique incidunt voluptatum corrupti iste necessitatibus, dicta aliquid quibusdam labore. Non. Soluta recusandae eaque repellat quos possimus totam, vel doloribus.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="u-center-text u-margin-bottom-lg"> 
+        <a href="#" class="btn-text">More reviews &rarr;</a>
+      </div>
+    </section>
+
+    <section class="section-free">
+      <div class="row">
+        <div class="free">
+          <div class="free__form">
+            <form action="#" class="form">
+              
+              <div class="u-margin-bottom-md">
+                <h2 class="heading-secondary">
+                  Get one free class
+                </h2>
+              </div>
+
+              <div class="form__group">
+                <input type="text" class="form__input" placeholder="Full Name" id="name" required>
+              </div>
+              
+              <div class="form__group u-margin-bottom-md">
+                <input type="email" class="form__input" placeholder="Email address" id="email" required>
+              </div>
+
+              <div class="form__group u-margin-bottom-md">
+                <div class="form__radio-group">
+                  <input type="radio" class="form__radio-input" id="day" name="class">
+                  <label for="day" class="form__radio-label">
+                    <!-- span used to style radio -->
+                    <span class="form__radio-button"></span>
+                    Day Classes</label>
+                </div>
+
+                <div class="form__radio-group">
+                  <input type="radio" class="form__radio-input" id="private" name="class">
+                  <label for="private" class="form__radio-label">
+                    <!-- span used to style radio -->
+                    <span class="form__radio-button"></span> 
+                    Private Instructors</label>
+                </div>
+              </div>
+
+              <div class="form__group">
+                <button class="btn btn--orange">Submit &rarr;</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <img src="img/logi-sq.png" alt="Full logo" class="footer__logo">
+      </div>
+      <!-- Footer List -->
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+            </ul>
           </div>
         </div>
 
-        <div class="row">
-          <div class="story">
-            <figure class="story__shape">
-              <img src="img/yoga-9.jpg" alt="Yogi celebrating success" class="story__img">
-              <figcaption class="story__caption">Logan</figcaption>
-            </figure>
-            <div class="story_text">
-              <h3 class="heading-tertiary u-margin-bottom-sm">Yoga and sand... My two favorite things</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi veniam minus nesciunt ipsa blanditiis provident cupiditate magni voluptate assumenda similique incidunt voluptatum corrupti iste necessitatibus, dicta aliquid quibusdam labore. Non. Soluta recusandae eaque repellat quos possimus totam, vel doloribus.</p>
-            </div>
-          </div>
+        <!-- Copyright -->
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Built by <a href="https://kashifross.github.io" class="footer__link">Kashif Ross.</a> This project was completed as an assignment from Jonas Schmedtmann's Advanced CSS and Sass course. 
+          </p>
         </div>
-    
-
-    <div class="u-center-text u-margin-bottom-lg"> 
-      <a href="#" class="btn-text">More reviews &rarr;</a>
-    </div>
+      </div>
+    </footer>
   </main>
   <!-- <section class="grid-test">
     <div class="row">
