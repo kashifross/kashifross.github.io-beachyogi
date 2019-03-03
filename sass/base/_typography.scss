@@ -9,6 +9,7 @@ body {
 .heading-primary {
   color: $color-white;
   text-transform: uppercase;
+  
   backface-visibility: hidden;
   padding-bottom: 60px;
 
@@ -18,6 +19,7 @@ body {
     font-weight: 500;
     letter-spacing: 1.2rem;
     line-height: 0.8;
+
     animation: moveUp 1.1s ease-in;
   }
   
