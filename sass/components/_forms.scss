@@ -67,14 +67,11 @@
 
     &::after {
       content: "";
+      @include absCenter;
       display: block;
       height: 1rem;
       width: 1rem;
       border-radius: 50%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
       background-color: $color-primary-light;
       opacity: 0;
       transition: opacity .15s ease-in-out;
